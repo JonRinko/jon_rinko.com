@@ -100,10 +100,12 @@ body{
 	#main{
 		width:100%;
 		float:none;
-	}
+    }
+    
+    #navbar ul{
+        display: none;
+        display:inline-block;
+    }
 
-	#sidebar{
-		width:100%;
-		float:none;
-	}
+
 }
