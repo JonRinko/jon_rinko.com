@@ -58,17 +58,16 @@ body{
     background-position: center;
     min-height: 220px;
     width: auto;
-    margin: 5% 10%;
+    margin: 5% 0;
     text-align: center;
     background-repeat: no-repeat;
     background-color: #fff;
+    background-size: inherit;
 }
 
 #showcase h1{
-    font-size: 32px;
     line-height: 1.2em;
     padding-top:40px;
-    border-width: 80%;
 }
 
 /* #main{
