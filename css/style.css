@@ -66,10 +66,33 @@ body{
 }
 
 #showcase h1{
-    line-height: 1.2em;
-    padding-top:40px;
+    padding-top:25px;
 }
 
+#home-showcase{
+    
+    min-height: 220px;
+    width: auto;
+    margin: 5% 0;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+#home-showcase h2{
+    line-height: 2em;
+    padding-top:0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#home-showcase h3{
+    line-height: 1em;
+    padding-top:18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    
+}
 /* #main{
     float:left;
 	width:70%;
@@ -93,6 +116,7 @@ body{
 	padding:10px;
     background-size: 80%;
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 /* makes them responsive below */
