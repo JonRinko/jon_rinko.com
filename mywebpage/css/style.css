@@ -1,0 +1,110 @@
+body{
+    background: #fff;
+    color:#555 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color:#fff;
+    text-align: center;
+}
+
+#main-header img{
+    width: 105px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#navbar{
+    background-color:#fff;
+    text-align: center
+    
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+
+}
+
+#navbar li{
+    display: inline;
+
+}
+
+#navbar a{
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+#navbar a:hover{
+    color: #ff5733;
+}
+
+#showcase{
+    background-image: url("../images/chart2.JPG");
+    background-position: center;
+    min-height: 220px;
+    width: auto;
+    margin: 50px 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+#showcase h1{
+    font-size: 32px;
+    line-height: 1.2em;
+    padding-top:40px;
+    border-width: 80%;
+}
+
+/* #main{
+    float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+} */
+
+/* #sidebar{
+    float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+} */
+
+#main-footer{
+    background: #fff;
+	color:#333;
+	text-align: center;
+	padding:10px;
+    background-size: 80%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* makes them responsive below */
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
