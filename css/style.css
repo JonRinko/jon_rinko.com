@@ -20,9 +20,9 @@ body{
 }
 
 #main-header img{
-    width: 84px;
+    width: 105px;
     height: auto;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #navbar{
@@ -57,7 +57,7 @@ body{
     background-image: url("../images/chart2.JPG");
     background-position: center;
     min-height: 220px;
-    width: auto;
+    width: 80%;
     margin: 50px 50px;
     text-align: center;
     background-repeat: no-repeat;
