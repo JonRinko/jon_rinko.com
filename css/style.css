@@ -115,12 +115,25 @@ body{
     color: #333;
 }
 
-#about p{
-    font-family: calibri, sans-serif;
+
+
+#about img{
+    height: 350px;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+blockquote{
+    color: blue;
     font-size: 18px;
-    text-align: center;
+    padding-top: 20px;
     
 }
+
+.intro p{
+    font-size: 18px;
+}
+
 
 #container{
     overflow: hidden;
@@ -199,7 +212,7 @@ padding: 40px;
 }
 
 #education p{
-
+    font-size: 18px;
 }
 
 #main-footer{
